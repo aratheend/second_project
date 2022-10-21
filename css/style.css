@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* HEADER */
+.header {
+    background-color: rgba(44,62,80);
+    padding-inline: 0; /*right-left*/
+    padding-block: 24px; /*up-down*/
+}
+
+.header .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .logo {
+    width: 65%;
+    float: left;
+}
+
+.header .logo a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.header .navbar {
+    width: 35%;
+    float: right;
+    text-align: rsight;
+}
+
+.header .navbar ul li {
+    display: inline-block;
+    margin: 0 30px;
+    line-height: 32px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+}
+
+.header .navbar ul li a:hover {
+    color: #1ABC9C;
+}
+
+/* SECTION 1 */
+.one {
+    background-color: #1ABC9C;
+    margin: auto;
+    padding: 10rem;
+}
+
+.one .container {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.one .container img {
+    width: 200px;
+}
+
+.one .container h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.one .container hr {
+    width: 250px;
+    margin: 40px 0;
+    display: inline-block;
+    border: none;
+    border: 3px solid white;
+    
+}
+
+
+.one .container p {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* SECTION 2 */ /*QIRIQLAr*/
+
+.two .container {
+    height: 70vh;
+    text-align: center;
+    margin: 4rem auto;
+
+}
+
+.two .container h1 {
+    color: #2C3E50;
+    font-size: 70px;
+    margin-bottom: 10px;;
+    text-transform: uppercase;
+}
+
+.two .container hr {
+    color: #2C3E50;
+    border: none;
+    border: 3px solid #2C3E50;
+    width: 17rem;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+.two .container .box {
+    width: 30%;
+    float: left;
+    border: 1px solid blue;
+}
+
+.two .container .box img {
+    width: 100%;
+    position: relative;
+}
+
+.two .container .box .flow {
+    display: none;
+    background-color: #1ABC9C;
+    width: 100%;
+}
+
+/* SECTION 3 */
+.three {
+    background-color: #1ABC9C;
+    height: 60vh;
+    text-align: center;
+    margin-block: 50px;
+    padding-block: 4rem;
+}
+
+.three .container h1 {
+    color: white;
+    text-transform: uppercase;
+    padding-block: 2rem;
+    font-size: 30px     ;
+}
+
+.three .container hr {
+    display: inline-block;
+    width: 10rem;
+    border: none;
+    border: 3px solid white;
+
+}
+
+.three .container .texts li {
+    display: inline-block;
+    margin: 4rem;
+    vertical-align: top;
+    color: white;
+}
+
+.three .container a {
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 25px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #1ABC9C;
+    transition: 0.7s ease;
+}
+
+.three .container a i {
+    margin-right: 20px;   
+}
+
+.three .container a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
